@@ -1,0 +1,64 @@
+<?php get_header(); ?>
+
+<section class="hero hero-home">
+  <div class="container">
+    <small>Welcome to</small>
+    <h1><?php echo esc_html( stmaris_info( 'name' ) ); ?></h1>
+    <p>Nurturing excellence, building future leaders since 1999.</p>
+    <a class="btn" href="<?php echo esc_url( stmaris_page_url( 'apply' ) ); ?>">Apply now</a>
+    <a class="btn btn-outline" href="<?php echo esc_url( stmaris_page_url( 'academics' ) ); ?>">Our results</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid">
+      <div class="card"><h3>Our Mission</h3><p>To provide holistic, quality education that empowers students to achieve academic excellence, moral integrity and leadership for community development.</p></div>
+      <div class="card"><h3>Our Vision</h3><p>To be a leading center of learning that nurtures innovative, disciplined and responsible citizens prepared for global opportunities and challenges.</p></div>
+      <div class="card"><h3>Core Values</h3><p>Integrity, excellence, discipline, respect, service, compassion and godliness.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="container grid">
+    <div><strong>1500+</strong>Students enrolled</div>
+    <div><strong>98%</strong>Pass rate, UNEB 2024</div>
+    <div><strong>45+</strong>Qualified teachers</div>
+    <div><strong>25 years</strong>of excellence</div>
+  </div>
+</section>
+
+<section class="section section-white">
+  <div class="container">
+    <h2>About <?php echo esc_html( stmaris_info( 'name' ) ); ?></h2>
+    <p>Located in Kampala, Uganda, St Maris High School is a distinguished girls boarding school committed to academic excellence, spiritual growth and character formation. Since 1999, we have grown into one of the most respected schools in the country.</p>
+    <ul class="check-list"><li>Competence-based curriculum aligned with UNEB</li><li>Holistic programs in academics, sports, arts and leadership</li><li>Safe, supportive and inclusive learning environment</li></ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>Academic Programs</h2>
+    <p style="margin-bottom:20px">Comprehensive pathways for student success.</p>
+    <div class="grid">
+      <div class="card photo"><img src="<?php echo stmaris_img( 'lab.jpg' ); ?>" alt="Sciences"><div><h3>Sciences</h3><p>Physics, Chemistry, Biology</p></div></div>
+      <div class="card photo"><img src="<?php echo stmaris_img( 'humanities.jpg' ); ?>" alt="Arts and Humanities"><div><h3>Arts and Humanities</h3><p>History, CRE, Economics</p></div></div>
+      <div class="card photo"><img src="<?php echo stmaris_img( 'pose.jpg' ); ?>" alt="Life at St Maris"><div><h3>Life at St Maris</h3><p>Sports, clubs, sisterhood</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="principal">
+  <div class="container">
+    <div>
+      <h2>Message from the Principal</h2>
+      <p>At St Maris we don't just teach, we transform. We return a confident, disciplined and academically excellent young woman ready for university and life. Welcome to the St Maris family.</p>
+      <p class="name">Ms. Arihenda Beatrice, Principal</p>
+    </div>
+  </div>
+</section>
+
+<?php stmaris_editor_content(); ?>
+
+<?php get_footer(); ?>
